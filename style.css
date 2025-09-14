@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef); /* fundo neutro */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.form-container {
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* gradiente elegante */
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  width: 90%;
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #fff;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 8px;
+  background-color: #0056b3;
+  border: none;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #003d80;
+}
